@@ -1,0 +1,71 @@
+.player-bar {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: rgba(37, 32, 55, 0.5);
+    padding: 15px;
+    margin-top: 50px;
+}
+
+#buttons {
+    clear: both;
+    display: block;
+    text-align: center;
+}
+
+#time-control {
+    display: inline-block;
+    width: 100%;
+}
+
+.current-time {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+
+.seek-bar {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background: #850545;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.seek-bar:hover {
+    opacity: 1;
+}
+
+.seek-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.seek-bar::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.total-time {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    padding-top: 5px;
+}
+
+#volume-control {
+    padding-top: 35px;
+}

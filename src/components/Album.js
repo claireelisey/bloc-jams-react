@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import albumData from './../data/albums';
 import PlayerBar from './PlayerBar';
+import './Album.css';
 
 class Album extends Component {
     constructor(props) {
@@ -134,7 +135,7 @@ class Album extends Component {
                         <div id="release-info">{this.state.album.releaseInfo}</div>
                     </div>
                 </section>
-                <table id="song-list">
+                <table rules="rows" id="song-list">
                     <colgroup>
                         <col id="song-number-column" />
                         <col id="song-title-column" />

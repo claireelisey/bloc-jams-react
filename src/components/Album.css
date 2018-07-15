@@ -1,0 +1,60 @@
+.album {
+    margin: 0 auto;
+    max-width: 48rem;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.album-info {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#album-cover-art {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+.album-details {
+    padding-left: 50px;
+    float: left;
+}
+
+#album-title {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0;
+    border-bottom: 4px solid #ffffff;
+}
+
+.artist {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#release-info {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#song-list {
+    clear: both;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    line-height: 2.5em;
+    padding-top: 50px;
+}
+
+tbody {
+    border-color: #A31340;
+}
