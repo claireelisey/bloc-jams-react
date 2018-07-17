@@ -14,7 +14,7 @@ class App extends Component {
         <img id="logo-float" src={logo} alt="Logo" />
           <nav>
             <ul>
-              <li><Link style={{ textDecoration: 'none', color:'white' }} to='/' activeClassName="app-nav">Landing</Link></li>
+              <li><Link style={{ textDecoration: 'none', color:'white' }} to='/'>Landing</Link></li>
               <li><Link style={{ textDecoration: 'none', color:'white' }} to='/library'>Library</Link></li>
             </ul>
           </nav>
